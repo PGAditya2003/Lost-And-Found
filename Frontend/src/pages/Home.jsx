@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar"
 import About from "../components/About";
+import Post from "../pages/Post"
 import ParticlesBackground from "../components/Particle";
 function Home(){
     return (
@@ -14,6 +15,7 @@ function Home(){
             <button>Find item</button>
           </a>
         </div>
+        <Post />
         <About />
       </main>
     );
